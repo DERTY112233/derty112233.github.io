@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This is the Derty Blog, where Derty voices his views on topics interesting to him.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+A little about me is that I am a self-taught programmer, cybersec analyst and constantly learning. From the South African region, I have thus come to know how little I know.
 
+My experiences matter little but whatever I have acquired, has been valuable insights into just how screwed us tech guys are in the market, especially the ones who stay far from the hell hole which is LinkedIn...though I do look for jobs there 🤢.
 
-[jekyll-organization]: https://github.com/jekyll
+Over the past 5/6 years I have been into the computer science scene I have only been employed for 1, doing tech support, but having little programmer stuff but continuously learning and growing in understanding with base knowledge of C, C++. I have, through curiosity, played around with older technologies such as mainframes, going to IBM for their knowledge to play with these things in their virtual labs and even obtaining certificates in COBOL, REXX, JCL, TSO and such...getting my IBM Mainframe Practitioner Certicifation and that was fun, I also learned through Moshix [his youtube can be found here](https://www.youtube.com/@moshixmainframechannel), that we can run our own mainframes locally with Herculese.... __and it is only 100mbs__ 😱 I had to try it.
+
