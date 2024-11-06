@@ -54,3 +54,13 @@ __CUL8TR__
 ENTER again and then you should be met with some wisdom, will be different for you.
 ![The picture has some issues](/wisdom.png)
 Press ENTER
+
+#### Word of warning 
+I am not going to claim to be a professional but I just relay what I have gone through and how I have learnt. Below are resources that I have put together to help you along this journey
+
+| Resource | Provider | What you'll learn |
+| --------------- | --------------- | --------------- |
+| Introduction to IBM z/OS | IBM | An overview of the platform as a whole |
+| Introduction to z/OS Commands and Panels on IBM Z | IBM | Very useful TSO and editor commands |
+| Introduction to System Programming on IBM Z | IBM  | Have an Introduction to JCL              |
+| Learning COBOL Programming with VSCode | IBM | An awesome introduction to COBOL, a powerful language|
