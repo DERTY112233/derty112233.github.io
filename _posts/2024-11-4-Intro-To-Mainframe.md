@@ -54,3 +54,4 @@ __CUL8TR__
 ENTER again and then you should be met with some wisdom, will be different for you.
 ![The picture has some issues](/wisdom.png)
 Press ENTER
+![This picture has some issues](/amazing_eyes.jpg) 
