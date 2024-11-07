@@ -29,21 +29,21 @@ This part is easy as well, locate where you downloaded the MVS-TK5 zip file and 
 ```powershell
 .\mvs
 ```
-After running this, you should see a lot of information running across the screen, don't be alarmed, just give it some time and you should see a screen like the one below
+After running this, you should see a lot of information running across the screen, don't be alarmed, just give it some time, and you should see a screen like the one below
 ![the picture has some issues](/herc_console.png)
 And now for some magic, press "ESC" to see the console in action.
 Should look like the below
 ![the picture has some issues](/esc_console.png)
-If all went well and the steps were followed, we have successfuly powered on our mainframe!!! Congrats
+If all went well and the steps were followed, we have successfully powered on our mainframe!!! Congrats
 
 #### Let's patch in 
-Starting up the wx3270 terminal we installed(it may not look like it's anything special but it packs a punch in features)
+Starting up the wx3270 terminal we installed(it may not look like it's anything special, but it packs a punch in features)
 Locate the double pin plug and hover over it with your mouse, should say "Connect to a host", click that and use the default configuration which should be localhost 3270.
 
-__you are now in__
+__You are now in__
 __CONGRATULATIONS__
 
-You should see a screen like the one after running the mvs startup script and you can interact with the system.
+You should see a screen like the one after running the MVS startup script, and you can interact with the system.
 ![The picture has some issues](/main_console.png)
 When this is shown, press ENTER.
 Now time to login, use the following user and press ENTER 
@@ -51,7 +51,7 @@ Now time to login, use the following user and press ENTER
 And when on the screen below, use the following password and press ENTER
 ![The picture has some issues](/pass.png)
 __CUL8TR__
-ENTER again and then you should be met with some wisdom, will be different for you.
+ENTER again, and then you should be met with some wisdom, will be different for you.
 ![The picture has some issues](/wisdom.png)
 Press ENTER
 
