@@ -141,7 +141,7 @@ y = 100
 
 [general]
 live_config_reload = true
-working_directory = 'C:\\Users\\joelp\\'
+working_directory = 'C:\\Users\\<your_user>\\'
 
 [terminal]
 
