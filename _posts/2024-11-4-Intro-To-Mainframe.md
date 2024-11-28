@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Into to Mainframe"
+description: "A short description for this page."
+---
+
+
 #   MVS-TK5, The Perfect Learning Environment
 
 When looking at the history of computers one day I looked into mainframes and the programming languages COBOL, REXX, JCL and even the low resource C (12 bit), and wanting to experiment, I looked for "Mainframe VM VirtualBox" and "Z/OS VM VirtualBox", religiously, to no avail. I went on to look through YouTube and found [Moshix](https://www.youtube.com/@moshixmainframechannel)(I will be referring to his content as his channel is far richer than what I could achieve) and how we are able to experiment with mainframes on a local machine and patch into it through various terminals. 

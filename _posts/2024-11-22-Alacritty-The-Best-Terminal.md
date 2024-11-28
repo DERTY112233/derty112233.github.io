@@ -1,4 +1,10 @@
-# ALACRITTY, THE BEST TERMINAL
+---
+layout: default
+title: "ALACRITTY configuration"
+description: "A short description for this page."
+---
+
+### ALACRITTY, THE BEST TERMINAL
 
 My configuration
 
