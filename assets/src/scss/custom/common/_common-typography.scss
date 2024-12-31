@@ -1,0 +1,143 @@
+
+// All common typohraphy & fonts 
+// Will be scaling font size on media query ( 1024px, 768px & 574px )
+
+
+// Text transforms 
+
+
+.the-title h1,
+.the-title h2,
+.the-title h3,
+.post-title h1,
+.post-title h2,
+.post-title h3,
+.post-title h4,
+.page-title h1,
+.page-title h2,
+.entry-cats ul li a,
+.widget .widget_title h3,
+.related-posts .title h3,
+.related-post .post-title h4,
+.comments-area .comments-title,
+.comment-respond .comment-reply-title,
+.widget_recent_entries .post-date,
+.post-navigation .post-nav-title span.meta-nav,
+.author-box .author-name h3  {
+
+	text-transform:uppercase;
+}
+
+
+// Font sizes
+
+
+.entry-metas ul li.posted-date a,
+.widget_recent_entries .post-date,
+.fb-post-widget .entry-metas ul li.comment a,
+.fb-post-widget .entry-metas ul li.posted-date a {
+
+	font-size: 12px;
+}
+
+.entry-cats ul li a,
+.fb-breadcrumb ul li, 
+.fb-breadcrumb ul li span, 
+.fb-breadcrumb ul li a,
+.fascinate-to-top span,
+.post-navigation .post-nav-title span.meta-nav {
+
+	font-size: 13px;
+}
+
+.post-link-btn {
+
+	font-size: 15px;
+}
+
+.post-format-icon {
+
+	font-size:16px;
+}
+
+q,
+blockquote,
+.wp-block-quote {
+
+	font-size:17px;
+}
+
+.widget .widget_title h3 {
+
+	font-size: 21px;
+}
+
+.related-posts .title h3 {
+
+	font-size:22px;
+}
+
+.banner-style-1 .post-title h2 {
+
+	font-size:28px;
+}
+
+.posts-list-style-1 .post-title h3 {
+
+	font-size:36px;
+}
+
+.fb-breadcrumb-wrap .page-title {
+
+	font-size: 38px;
+}
+
+
+// Font weights 
+
+
+.entry-metas ul li.posted-date a,
+.widget_recent_entries .post-date,
+.fb-post-widget .entry-metas ul li.comment a,
+.fb-post-widget .entry-metas ul li.posted-date a,
+.single-page-style-2 .entry-metas ul li.posted-date a {
+
+	font-weight:500;
+}
+
+.entry-cats ul li, 
+.entry-cats ul li a,
+.fascinate-to-top span,
+.post-navigation .post-nav-title span.meta-nav {
+
+	font-weight:600;
+}
+
+.widget .widget_title h3 {
+
+	font-weight:700;
+}
+
+
+// letter spacing 
+
+
+.entry-metas ul li.posted-date a,
+.widget_recent_entries .post-date,
+.fb-post-widget .entry-metas ul li.comment a,
+.fb-post-widget .entry-metas ul li.posted-date a {
+
+	letter-spacing: 0.25px;
+}
+
+
+// font style 
+
+
+q,
+blockquote,
+.wp-block-quote  {
+
+	font-style:italic;
+}
+

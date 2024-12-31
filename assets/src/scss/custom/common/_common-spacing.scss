@@ -1,0 +1,44 @@
+
+// All common spacings 
+// Will re-do spacing on media query ( 1024px, 768px & 574px )
+
+.archive-content-area-wrap,
+.search-page-content-area-wrap,
+.main-content-area-wrap,
+.innerpage-content-area-wrap {
+
+	padding-top: $max_element_spacing;
+	padding-bottom: $max_element_spacing;
+}
+
+.fb-breadcrumb-wrap {
+
+	padding:$max_element_spacing 0;
+}
+
+
+.posts-list-style-1 .post-thumb {
+
+	margin-bottom: $standard_section_spacing;
+}
+
+.fb-patigation {
+
+	margin-top: $max_element_spacing;
+}
+
+.post-content-link {
+	
+    margin-top: 40px;
+}
+
+.posts-list-style-1 .post,
+.posts-list-style-1 .hentry {
+
+	margin-bottom:$max_element_spacing;
+}
+
+.posts-list-style-1 .post:last-child {
+
+	margin-bottom:0;
+}

@@ -1,0 +1,301 @@
+
+// Everything about widgets
+
+
+.widget {
+
+    margin-bottom: 30px;
+}
+
+.widget select {
+    
+    width: 100%;
+    height: 43px;
+    padding:5px 10px;
+}
+
+.widget:last-child {
+
+    margin-bottom: 0px;
+}
+
+.widget:first-child {
+
+	margin-bottom: 30px;
+}
+
+footer .widget {
+
+    margin-bottom: 30px;
+}
+
+header .widget,
+.primary-insta-widget-area .widget {
+
+	margin:0;
+}
+
+footer.secondary-widget-area .widget {
+
+	border:none;
+	padding:0;
+}
+
+.secondary-widget-area .widget {
+
+    padding:30px;
+}
+
+.widget .widget_title {
+
+    border-bottom:2px solid $border_color;
+    margin-bottom:30px;
+}
+
+.widget .widget_title h3 {
+
+	display: inline-block;
+    position: relative;
+    font-style: normal;
+}
+
+.widget .widget_title::after {
+
+	content:'';
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 2px;
+    background: $primary_color;
+    bottom: -2px;
+}
+
+.widget.widget_search button[type="submit"] {
+
+    font-size: 20px;
+}
+
+/*
+====================================================
+=
+= Auhtor widget @ secondary widget area
+=
+==========================================
+*/
+
+
+.fb-author-widget .widget-container {
+
+    text-align:center;
+}
+
+.fb-author-widget .lazy-thumb {
+
+    padding-bottom:100%;
+}
+
+.fb-author-widget .author-thumb {
+
+    @include border_radius(100%);
+}
+
+.fb-author-widget .author-thumb img {
+
+    width:284px;
+    height:284px;
+    @include border_radius(100%);
+    margin:0 auto;
+    object-fit: cover;
+    object-position: center center;
+    -ms-object-fit: cover;
+    -webkit-object-fit: cover;
+    -moz-object-fit: cover;
+    -o-object-fit: cover;
+    -ms-object-position: center center;
+    -webkit-object-position: center center;
+    -moz-object-position: center center;
+    -o-object-position: center center;
+}
+
+.fb-author-widget .author-title {
+    
+    margin-bottom: 15px;
+}
+
+.fb-author-widget .author-title h3 {
+
+    font-size:24px;
+}
+
+.fb-author-widget .author-bio {
+
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.fb-author-widget .author-bio p {
+
+    overflow: hidden;
+    max-height: 4.7em;
+    text-overflow: ellipsis;
+}
+
+.fb-author-widget .author-permalink span {
+
+    display:inline-block;
+    padding:0 5px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; 
+}
+
+.fb-author-widget .author-permalink a {
+
+    padding: 15px 40px;
+    line-height: 1;
+}
+
+
+
+/*
+====================================================
+=
+= Social widget @ secondary widget area
+=
+==========================================
+*/
+
+
+.fb-social-widget-1 .social-icons ul li:first-child a {
+
+    padding-left:0;
+}
+
+.fb-social-widget-1 .social-icons ul li:last-child a {
+
+    padding-right:0;
+}
+
+
+
+/*
+====================================================
+=
+= Post widget @ secondary widget area
+=
+==========================================
+*/
+
+
+.fb-post-widget article {
+
+    margin-bottom:20px;
+    padding-bottom:20px;
+}
+
+.fb-post-widget article:last-child {
+
+    border-bottom:0;
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+.fb-post-widget .fb-row {
+
+    margin:0;
+    align-items: center;
+}
+
+.fb-post-widget .fb-row .fb-col {
+
+    padding-left: 0;
+    padding-right:0;
+}
+
+.fb-post-widget .fb-row .fb-col:last-child {
+
+    padding-left:20px;
+}
+
+.fb-post-widget .lazy-thumb {
+
+    padding-bottom:100%;
+}
+
+.fb-post-widget .the-title a {
+
+    display:block;
+    line-height:1.4;
+    padding-bottom:5px;
+}
+
+.fb-post-widget .entry-metas ul li.posted-date a {
+
+    background:none;
+    padding:0;
+}
+
+.fb-post-widget .entry-metas ul li.posted-date a:hover {
+
+    background:none;
+}
+
+.fb-post-widget .fb-row .fb-col:first-child {
+
+    flex:99px;
+    max-width:99px;
+}
+
+.fb-post-widget .fb-row .fb-col:last-child {
+
+    flex:calc( 100% - 99px );
+    max-width:calc( 100% - 99px );
+}
+
+.fb-post-widget .post-thumb {
+
+    @include border_radius(100%);
+} 
+
+.fb-post-widget .post-thumb img {
+
+    @include border_radius(100%);
+}
+
+
+
+// Popular post style 1
+
+
+.fb-popular-posts .post-thumb {
+
+    @include border_radius(5px);
+}
+
+.fb-popular-posts .post-thumb img {
+
+    @include border_radius(5px);
+}
+
+.fb-popular-posts .count {
+
+    display:inline-block;
+    position:absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 5;
+    color:$white;
+    font-style:normal;
+    font-size:16px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    @include border_radius(100%);
+}
+
+
+
+

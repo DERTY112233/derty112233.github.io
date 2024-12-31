@@ -1,0 +1,64 @@
+.alignleft {
+    
+    display: inline;
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+
+    display: inline;
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+
+    clear: both;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+// gutenberg aligment ( full width & wide width )
+
+
+body.no-sidebar .alignfull {
+
+    width: 90vw;
+    max-width: 90vw;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+body.no-sidebar ul.wp-block-gallery.alignfull,
+body.no-sidebar ul.wp-block-gallery.alignwide {
+
+    margin-left: 50%;
+}
+
+body.no-sidebar .alignwide {
+
+    width: 70vw;
+    width: 70vw;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+body.no-sidebar.boxed .alignfull,
+body.no-sidebar.boxed .alignwide,
+body.no-sidebar.boxed ul.wp-block-gallery.alignwide,
+body.no-sidebar.boxed ul.wp-block-gallery.alignfull {
+
+    width:100%;
+    max-width:100%;
+    margin-left: inherit;
+    -webkit-transform:none;
+    -moz-transform:none;
+    -o-transform:none;
+    -ms-transform:none;
+    transform:none;
+}

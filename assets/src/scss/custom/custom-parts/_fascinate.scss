@@ -1,0 +1,510 @@
+
+
+// Row 
+
+.fb-row {
+
+    @include flex_row();
+}
+
+.fb-col {
+
+    @include flex_col(33.333333%);
+    padding:0 15px;
+}
+
+
+// Container 
+
+.fb-container {
+
+    position: relative;
+    max-width: 1170px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    background:transparent; 
+}
+
+// boxed layout ( condition )
+
+.page--wrap {
+    
+    position:relative;
+    z-index:2;
+    background:#ffffff;
+    margin:0 auto;
+}
+
+body.boxed .page--wrap {
+    
+    max-width: 1170px;
+    width: 100%;
+}
+
+body.boxed {
+
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+    background-repeat:repeat;
+    background-color:whitesmoke;
+}
+
+
+body.boxed .fb-container {
+    
+    max-width: 1170px;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+
+// thumb 
+
+.thumb {
+
+    position: relative;
+}
+
+
+// Post categories 
+
+
+.entry-cats ul {
+
+    list-style:none;
+}
+
+.entry-cats ul li,
+.entry-cats ul li a {
+
+    display:inline-block;
+    text-transform:inherit;
+}
+
+.entry-cats ul li a {
+
+    margin-right: 3px;
+    line-height: 1.6;
+}
+
+.entry-cats ul li:last-child {
+
+    padding-right:0;
+}
+
+.entry-cats ul li:last-child a {
+
+    margin-right: 0;
+}
+
+.entry-cats ul li a:after {
+
+    content:',';
+}
+
+.entry-cats ul li:last-child a:after {
+
+    content:'';
+    display:none;
+}
+
+
+// Metas for post & pages 
+
+
+.entry-metas ul {
+
+    list-style:none;
+}
+
+.entry-metas ul li {
+    
+    margin-right: 0;
+}
+
+.entry-metas ul li,
+.entry-metas ul li a {
+
+    display:inline-block;
+}
+
+.entry-metas ul li.posted-by {
+
+    padding-left: 5px;
+}
+
+.entry-metas ul li.posted-date a {
+    
+    position: relative;
+    line-height:1;
+    color:$white;
+    font-weight:400;
+    padding: 5px 15px;
+}
+
+.entry-metas ul li.posted-date a:after {
+
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -8px;
+    z-index: 1;
+    border-left: 4px solid $primary_color;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid $primary_color;
+    border-top: 4px solid transparent
+}
+
+.updated:not(.published),
+.fb-post-widget .entry-metas ul li.posted-date a:after {
+
+    display:none;
+}
+
+
+
+// Social icons 
+
+
+.social-icons ul {
+
+    list-style: none;
+}
+
+.social-icons ul li {
+    
+    display:inline-block;
+}
+
+.social-icons ul li a {
+
+    font-style: normal;
+    font-size:14px;
+    padding: 0 10px;
+}
+
+
+// Mask 
+
+.mask {
+
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom: 0;
+    z-index: 5;
+    background:rgba(0,0,0,0.1);
+    @include transation_delay();
+}
+
+
+// Drop cap
+
+.dropcap>p:first-child:first-letter,
+.has-drop-cap>p:first-child:first-letter  {
+
+    color: $secondary_color;
+    float: left;
+    font-size:75px;
+    font-weight:bold;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+.innerpage-content-area-wrap .dropcap>p:first-child:first-letter,
+.innerpage-content-area-wrap .has-drop-cap>p:first-child:first-letter  {
+  
+  font-size: 88px;
+  font-weight:bolder;
+  line-height:90px;
+}
+
+
+// Post thumbnail 
+
+
+.post-thumb {
+
+    position: relative;
+}
+
+
+// permalink button 
+
+
+.post-content-link {
+
+    text-align:center;
+}
+
+
+// Image hover 
+
+
+.imghover {
+    
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+
+
+// Tooltip content
+ 
+
+.tippy-content {
+
+    font-size: 12px;
+}
+
+
+// Lazy load
+
+
+.lazyloading,
+.lazy-loaded,
+img.lazyload,
+img.lazyloaded {
+
+    @include transation_delay_ladyload();
+}
+
+.lazy-thumb {
+    
+    display:block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom:56.25%;
+    overflow:hidden;
+}
+
+.lazy-thumb img {
+
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+.lazy-thumb img.lazyload {
+    
+    opacity:0;
+}
+
+.lazy-thumb img.lazyloaded {
+
+    opacity:1;
+}
+
+.lazyloading::before {
+
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  z-index:10;
+  width: 100%;
+  max-width:100%;
+  height: 100%;
+  background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #ddd 80px);
+  -o-background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #ddd 80px);
+  -moz-background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #ddd 80px);
+  -webkit-background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #ddd 80px);
+  -ms-background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #ddd 80px);
+  background-size: 100%;
+  -moz-animation: shine-lines 0.8s infinite linear;
+  -webkit-animation: shine-lines 0.8s infinite linear;
+  -ms-animation: shine-lines 0.8s infinite linear;
+  -o-animation: shine-lines 0.8s infinite linear;
+  animation: shine-lines 0.8s infinite linear;
+}
+
+.image-loaded::before {
+
+    content:'';
+    display:none;
+    animation:none;
+    background:transparent;
+    transform:none;
+    height:0;
+    width:0;
+    z-index:-1;
+}
+
+
+// post format 
+
+
+.post-format-icon {
+
+    position: absolute;
+    left:15px;
+    top:15px;
+    height:40px;
+    width: 40px;
+    line-height:40px;
+    text-align:center;
+    z-index: 9;
+    @include border-radius(100%);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    -o-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.is-post-format-block {
+
+    margin-bottom: 30px;
+}
+
+.is-post-format {
+
+    position:absolute;
+    z-index:10;
+    left:20px;
+    top:20px;
+}
+
+.is-post-format span {
+
+    display:inline-block;
+    width:45px;
+    height:45px;
+    line-height:45px;
+    text-align:center;
+    -webkit-border-radius: 63% 37% 30% 70% / 50% 45% 55% 50%;
+    -moz-border-radius: 63% 37% 30% 70% / 50% 45% 55% 50%;
+    -o-border-radius: 63% 37% 30% 70% / 50% 45% 55% 50%;
+    border-radius: 63% 37% 30% 70% / 50% 45% 55% 50%;
+}
+
+
+// post format styling 
+
+.is-gallery-format .item {
+
+    height:450px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+}
+
+.is-gallery-format .owl-nav button.owl-prev,
+.is-gallery-format .owl-nav button.owl-next {
+
+    display:inline-block;
+    position:absolute;
+    top:50%;
+    z-index:2;
+    -webkit-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    transform:translateY(-50%);
+    height:40px;
+    width:40px;
+    line-height:40px;
+    background:rgba(255,255,255,0.7);
+    @include border-radius(100%);
+    @include transation_delay();
+}
+
+.is-gallery-format .owl-nav button.owl-prev {
+
+    left:10px;
+    right:auto;
+}
+
+.is-gallery-format .owl-nav button.owl-next {
+
+    left:auto;
+    right:10px;
+}
+
+.is-gallery-format .owl-nav button.owl-prev:hover,
+.is-gallery-format .owl-nav button.owl-next:hover {
+
+    background:rgba(255,255,255,1);
+}
+
+.is-gallery-format .owl-nav button.owl-prev:focus,
+.is-gallery-format .owl-nav button.owl-next:focus {
+
+    outline:none;
+}
+
+.is-video-format {
+
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.is-video-format iframe,
+.is-audio-format iframe,
+.is-video-format video,
+.is-audio-format audio {
+
+    @include border-radius(10px);
+}
+
+.is-video-format iframe,
+.is-video-format video {
+
+    position: absolute;
+    height:100% !important;
+    width:100% !important;
+}
+
+.is-audio-format {
+
+    position: relative;
+}
+
+.is-audio-format audio {
+    
+    display:block;
+    width:100% !important;
+    min-height:30px;
+}
+
+.is-audio-format iframe {
+
+    width:100% !important;
+    min-height:200px;
+    height:200px;
+}
+
+.is-quote-format q,
+.is-quote-format blockquote {
+
+    margin:0;
+}
+
+
+// blog list style layout 1 
+
+.gc-blog-list-s1 .top-block,
+.gc-blog-list-s1 .bottom-block .permalink {
+
+    text-align:center;
+}
+

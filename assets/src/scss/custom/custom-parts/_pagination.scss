@@ -1,0 +1,72 @@
+
+// Pagination 
+
+.fb-patigation .pagination-entry {
+
+	margin:-3px 0;
+}
+
+.fb-patigation .page-numbers {
+	
+	display:inline-block;
+	text-align: center;
+	font-size:14px;
+	font-weight: 400;
+	margin:3px;
+	line-height: 50px;
+	width: 50px;
+	height: 50px;
+	@include border_radius(100%);
+}
+
+.fb-patigation .page-numbers.current {
+
+	font-weight:500;
+}
+
+.fb-patigation .page-numbers.next,
+.fb-patigation .page-numbers.prev {
+
+	font-size: 0;
+}
+
+.fb-patigation .page-numbers.next:after,
+.fb-patigation .page-numbers.prev:after {
+
+	content:'';
+	font-family: 'fontAwesome';
+	font-size:16px;
+	@include transation_delay(); 
+}
+
+.fb-patigation .page-numbers.next:after {
+
+	content:'\f105';
+}
+
+.fb-patigation .page-numbers.next:hover:after {
+
+	padding-left:20px;
+}
+
+.fb-patigation .page-numbers.prev:after {
+
+	content:'\f104';
+}
+
+.fb-patigation .page-numbers.prev:hover:after {
+
+	padding-right:20px;
+}
+
+.fb-patigation .page-numbers:last-child {
+	
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.fb-patigation .page-numbers:first-child {
+	
+	padding-left: 0;
+	margin-left:0;
+}

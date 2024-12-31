@@ -1,0 +1,774 @@
+# Copyright (C) 2019 Fascinate
+# This file is distributed under the same license as the Fascinate package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fascinate\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: themebeez <themebeez@gmail.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:22
+msgid "404"
+msgstr ""
+
+#: 404.php:25
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:28
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: customizer/customizer.php:43
+msgid "Fascinate Pro"
+msgstr ""
+
+#: customizer/customizer.php:44
+msgid "Go Pro"
+msgstr ""
+
+#: customizer/customizer.php:143
+msgid "Logo Setup"
+msgstr ""
+
+#: customizer/customizer.php:144
+msgid "Favicon"
+msgstr ""
+
+#: customizer/customizer.php:145
+msgid "Body Background"
+msgstr ""
+
+#: customizer/customizer.php:146
+msgid "Background Image"
+msgstr ""
+
+#: customizer/customizer.php:147
+msgid "Carousel Content"
+msgstr ""
+
+#: customizer/customizer.php:148, customizer/functions/customizer-fields.php:239
+msgid "Carousel Layout"
+msgstr ""
+
+#: customizer/customizer.php:149
+msgid "Social Links"
+msgstr ""
+
+#: customizer/customizer.php:150
+msgid "Post Content"
+msgstr ""
+
+#: customizer/customizer.php:151
+msgid "Author Section"
+msgstr ""
+
+#: customizer/customizer.php:152
+msgid "Related Section"
+msgstr ""
+
+#: customizer/customizer.php:153, functions.php:129
+msgid "Sidebar"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:46
+msgid "Boxed Layout"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:47
+msgid "Full Width Layout"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:96
+msgid "Show Default View"
+msgstr ""
+
+#: customizer/functions/customizer-choices.php:97
+msgid "Toggleable Canvas View"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:12
+msgid "Site Header"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:18
+msgid "Site Pages"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:43, customizer/functions/customizer-fields.php:210
+msgid "Site Layout"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:50
+msgid "Site Preloader"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:57
+msgid "Site Logo"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:64
+msgid "Site Favicon"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:71
+msgid "Top Header"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:78
+msgid "Site Carousel"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:85
+msgid "Blog Page"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:92
+msgid "Archive Page"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:99
+msgid "Search Page"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:106
+msgid "Post Single"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:113
+msgid "Page Single"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:120
+msgid "Breadcrumb"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:127
+msgid "Site Image"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:134
+msgid "Site Sidebar"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:141
+msgid "Site Footer"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:148
+msgid "Post Excerpt"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:155
+msgid "Post Meta"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:180
+msgid "Site Title Color"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:183
+msgid "Site Background"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:193
+msgid "Header is used as background image for breadcrumb"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:203
+msgid "Enable Preloader"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:218
+msgid "Display Top Header"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:220, widgets/fascinate-social-widget.php:136
+msgid "Facebook Link"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:221, widgets/fascinate-social-widget.php:143
+msgid "Twitter Link"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:222, widgets/fascinate-social-widget.php:150
+msgid "Instagram Link"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:223, widgets/fascinate-social-widget.php:157
+msgid "Pinterest Link"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:224, widgets/fascinate-social-widget.php:164
+msgid "Youtube Link"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:225
+msgid "Linkedin Link"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:226, widgets/fascinate-social-widget.php:178
+msgid "VK Link"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:228
+msgid "Enable Cursive Site Title"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:229
+msgid "Logo Section Padding"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:229
+msgid "Set padding on top and bottom of logo section. The range of value for padding is 0-50."
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:235
+msgid "Display Carousel"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:236
+msgid "Carousel Category"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:237
+msgid "Number of Carousel Items"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:237
+msgid "Maximum 5 items and minimum 1 item can be set."
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:238
+msgid "Display Carousel Content"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:240
+msgid "Enable Spacing"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:241
+msgid "Carousel Height"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:241
+msgid "This height will be displayed for devices with display width 992px. The range of value for carousel height is 400-700."
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:249, customizer/functions/customizer-fields.php:262, customizer/functions/customizer-fields.php:274, customizer/functions/customizer-fields.php:287, customizer/functions/customizer-fields.php:305
+msgid "Display Featured Image"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:250, customizer/functions/customizer-fields.php:263, customizer/functions/customizer-fields.php:275
+msgid "Display Post Categories"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:251, customizer/functions/customizer-fields.php:264, customizer/functions/customizer-fields.php:276
+msgid "Display Post Date"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:252, customizer/functions/customizer-fields.php:265, customizer/functions/customizer-fields.php:277
+msgid "Display Post Author"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:253, customizer/functions/customizer-fields.php:266, customizer/functions/customizer-fields.php:278
+msgid "Enable Dropcap"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:254, customizer/functions/customizer-fields.php:267, customizer/functions/customizer-fields.php:279, includes/custom-fields.php:27
+msgid "Sidebar Position"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:286
+msgid "Display Categories"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:288
+msgid "Display Posted Date"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:289
+msgid "Display Author Name"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:290
+msgid "Display Tags"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:291
+msgid "Comments View"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:292, customizer/functions/customizer-fields.php:293
+msgid "Display Section"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:294
+msgid "Section Title"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:295
+msgid "Number of Posts"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:295
+msgid "Maximum 4 items and minimum 1 items can be set."
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:296
+msgid "Display Author Meta"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:297, customizer/functions/customizer-fields.php:306
+msgid "Enable Common Sidebar Position"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:298, customizer/functions/customizer-fields.php:307
+msgid "Common Sidebar Position"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:313
+msgid "Display Breadcrumb"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:319
+msgid "Enable Lazy Loading"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:327
+msgid "Enable Sticky Sidebar"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:328
+msgid "Enable Sidebar For Small Devices"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:328
+msgid "This option lets you to display or do not display sidebar for devices with width smaller than 992px."
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:330
+msgid "Enable Global Sidebar Position"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:331
+msgid "Global Sidebar Position"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:342
+msgid "Display Scroll Top Button"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:343
+msgid "Copyright Text"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:349
+msgid "Excerpt Length"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:349
+msgid "Maximum excerpt length 40 and minimum excerpt length 20 can be set."
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:355
+msgid "Enable Cursive Post Meta"
+msgstr ""
+
+#: customizer/functions/customizer-fields.php:355
+msgid "This option affects categories and author post metas."
+msgstr ""
+
+#. translators: 1: Theme name, 2: Theme author.
+#: footer.php:75
+msgid "%1$s Theme By %2$s"
+msgstr ""
+
+#: footer.php:75
+msgid "Themebeez"
+msgstr ""
+
+#: footer.php:87
+msgid "Back to top"
+msgstr ""
+
+#: functions.php:54
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:55
+msgid "Top Header Menu"
+msgstr ""
+
+#: functions.php:131, functions.php:141, functions.php:152, functions.php:163
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:139
+msgid "Footer Left"
+msgstr ""
+
+#: functions.php:150
+msgid "Footer Middle"
+msgstr ""
+
+#: functions.php:161
+msgid "Footer Right"
+msgstr ""
+
+#: header.php:30
+msgid "Skip to content"
+msgstr ""
+
+#: includes/custom-fields.php:29
+msgid "Layout"
+msgstr ""
+
+#: includes/custom-fields.php:52
+msgid "Right"
+msgstr ""
+
+#: includes/custom-fields.php:53
+msgid "Left"
+msgstr ""
+
+#: includes/custom-fields.php:54
+msgid "Fullwidth"
+msgstr ""
+
+#: includes/custom-fields.php:127, widgets/fascinate-post-widget.php:180
+msgid "Layout One"
+msgstr ""
+
+#: includes/custom-fields.php:128, widgets/fascinate-post-widget.php:181
+msgid "Layout Two"
+msgstr ""
+
+#: includes/helper-functions.php:356
+msgid "Themebeez Toolkit"
+msgstr ""
+
+#: includes/template-functions.php:326
+msgid "404 - Page Not Found"
+msgstr ""
+
+#. translators: %s: search query.
+#: includes/template-functions.php:339
+msgid "Search Results for: %s"
+msgstr ""
+
+#: includes/template-functions.php:491
+msgid "Prev"
+msgstr ""
+
+#: includes/template-functions.php:492
+msgid "Next"
+msgstr ""
+
+#: includes/template-functions.php:519
+msgid "Next Post"
+msgstr ""
+
+#: includes/template-functions.php:536
+msgid "Previous Post"
+msgstr ""
+
+#: includes/template-tags.php:44
+msgid "d M"
+msgstr ""
+
+#: includes/template-tags.php:44
+msgid "Y"
+msgstr ""
+
+#. translators: %s: post author.
+#: includes/template-tags.php:59
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: includes/template-tags.php:84
+msgid "Leave a comment"
+msgstr ""
+
+#. translators: %s: comments number.
+#: includes/template-tags.php:87
+msgid "%s comment"
+msgstr ""
+
+#. translators: %s: comments number.
+#: includes/template-tags.php:91
+msgid "%s comments"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language.
+#: includes/theme-functions.php:23
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language.
+#: includes/theme-functions.php:29
+msgctxt "Oswald font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language.
+#: includes/theme-functions.php:35
+msgctxt "Pacifico font: on or off"
+msgid "on"
+msgstr ""
+
+#: includes/theme-functions.php:68
+msgid "Add Menu"
+msgstr ""
+
+#: includes/theme-functions.php:92
+msgctxt "place-holder"
+msgid "Type here to search"
+msgstr ""
+
+#: single.php:55
+msgid "Load Comments"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:33
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:29, template-parts/single/single-one.php:42, template-parts/single/single-two.php:23
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#. translators: %s: Name of current post. Only visible to screen readers
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:42, template-parts/single/single-one.php:61, template-parts/single/single-two.php:42
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/content-search.php:39, template-parts/content.php:54
+msgid "Continue Reading"
+msgstr ""
+
+#: third-party/breadcrumbs.php:264
+msgid "Browse:"
+msgstr ""
+
+#: third-party/breadcrumbs.php:265
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: third-party/breadcrumbs.php:266
+msgid "Home"
+msgstr ""
+
+#: third-party/breadcrumbs.php:267
+msgid "404 Not Found"
+msgstr ""
+
+#: third-party/breadcrumbs.php:268
+msgid "Archives"
+msgstr ""
+
+#. translators: %s is the search query.
+#: third-party/breadcrumbs.php:270
+msgid "Search results for: %s"
+msgstr ""
+
+#. translators: %s is the page number.
+#: third-party/breadcrumbs.php:272
+msgid "Page %s"
+msgstr ""
+
+#. translators: %s is the page number.
+#: third-party/breadcrumbs.php:274
+msgid "Comment Page %s"
+msgstr ""
+
+#. translators: Minute archive title. %s is the minute time format.
+#: third-party/breadcrumbs.php:276
+msgid "Minute %s"
+msgstr ""
+
+#. translators: Weekly archive title. %s is the week date format.
+#: third-party/breadcrumbs.php:278
+msgid "Week %s"
+msgstr ""
+
+#: third-party/breadcrumbs.php:738
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: third-party/breadcrumbs.php:755
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: third-party/breadcrumbs.php:772
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: third-party/breadcrumbs.php:788, third-party/breadcrumbs.php:817, third-party/breadcrumbs.php:844, third-party/breadcrumbs.php:871, third-party/breadcrumbs.php:1211
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: third-party/breadcrumbs.php:789, third-party/breadcrumbs.php:845, third-party/breadcrumbs.php:1215
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: third-party/breadcrumbs.php:790, third-party/breadcrumbs.php:1219
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: third-party/breadcrumbs.php:818
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: widgets/fascinate-author-widget.php:16
+msgid "F: Author Widget"
+msgstr ""
+
+#: widgets/fascinate-author-widget.php:18
+msgid "Displays brief author detail."
+msgstr ""
+
+#: widgets/fascinate-author-widget.php:132, widgets/fascinate-post-widget.php:195
+msgid "Title"
+msgstr ""
+
+#: widgets/fascinate-author-widget.php:139
+msgid "Author&rsquo;s Name"
+msgstr ""
+
+#: widgets/fascinate-author-widget.php:146, widgets/fascinate-author-widget.php:182
+msgid "Author&rsquo;s Detail Link Title"
+msgstr ""
+
+#: widgets/fascinate-author-widget.php:153
+msgid "Author&rsquo;s Image"
+msgstr ""
+
+#: widgets/fascinate-author-widget.php:175
+msgid "Upload"
+msgstr ""
+
+#: widgets/fascinate-author-widget.php:176
+msgid "Remove"
+msgstr ""
+
+#: widgets/fascinate-author-widget.php:189
+msgid "Author&rsquo;s Detail Link"
+msgstr ""
+
+#: widgets/fascinate-post-widget.php:16
+msgid "F: Posts Widget"
+msgstr ""
+
+#: widgets/fascinate-post-widget.php:18
+msgid "Displays Posts."
+msgstr ""
+
+#: widgets/fascinate-post-widget.php:175
+msgid "Chooose Layout"
+msgstr ""
+
+#: widgets/fascinate-post-widget.php:202
+msgid "No of Posts"
+msgstr ""
+
+#: widgets/fascinate-post-widget.php:210
+msgid "Display Date"
+msgstr ""
+
+#: widgets/fascinate-post-widget.php:217
+msgid "Display Comments No"
+msgstr ""
+
+#: widgets/fascinate-social-widget.php:16
+msgid "F: Social Widget"
+msgstr ""
+
+#: widgets/fascinate-social-widget.php:18
+msgid "Displays social links."
+msgstr ""
+
+#: widgets/fascinate-social-widget.php:53
+msgid "Follow on facebook"
+msgstr ""
+
+#: widgets/fascinate-social-widget.php:61
+msgid "Follow on twitter"
+msgstr ""
+
+#: widgets/fascinate-social-widget.php:69
+msgid "Follow on instagram"
+msgstr ""
+
+#: widgets/fascinate-social-widget.php:77
+msgid "Follow on pinterest"
+msgstr ""
+
+#: widgets/fascinate-social-widget.php:85
+msgid "Subscribe at youtube"
+msgstr ""
+
+#: widgets/fascinate-social-widget.php:93
+msgid "Connect on linkedin"
+msgstr ""
+
+#: widgets/fascinate-social-widget.php:101
+msgid "Follow on vk"
+msgstr ""
+
+#: widgets/fascinate-social-widget.php:129
+msgid "Title "
+msgstr ""
+
+#: widgets/fascinate-social-widget.php:171
+msgid "linkedin Link"
+msgstr ""

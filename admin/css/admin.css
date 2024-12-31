@@ -1,0 +1,67 @@
+/*
+===================================
+=
+= Themebeez Widgets styling
+=
+================================================
+*/
+
+.widgets-holder-wrap [id*="_fascinate"] .widget-top {
+
+    background: #424242;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.widgets-holder-wrap [id*="_fascinate"] h3 {
+
+	color: #ffffff !important;
+	font-weight: 500;
+	letter-spacing: 0.15px;
+}
+
+.widgets-holder-wrap [id*="_fascinate"] h3 span.in-widget-title {
+
+	color:#b1b1b1 !important;
+}
+
+
+/*
+===================================
+=
+= Image Upload
+=
+================================================
+*/
+
+.fb-image-uploader-container {
+
+	display: block;
+}
+
+.fb-upload-btn.fb-btn-hide,
+.fb-remove-btn.fb-btn-hide,
+.fb-replace-btn.fb-btn-hide {
+
+	display: none;
+}
+
+.fb-upload-btn.fb-btn-show,
+.fb-remove-btn.fb-btn-show,
+.fb-replace-btn.fb-btn-show {
+
+	display: inline-block;
+}
+
+.fb-upload-image-holder {
+
+	display: block;
+	height: 160px;
+	width: 100%;
+	background-color: #f5f5f5;
+	background-position: center;
+	background-size: cover;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #eeeeee;
+}
