@@ -1,0 +1,68 @@
+google_analytics: UA-xxxxxxxx-1
+authorbox: disabled
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-figure
+highlighter: none
+name: Memoirs
+description: I will take you on the fabulous world of exploration. Travel,
+  culture, lifestyle. Eat, Pray, Love!
+baseurl: ""
+disqus: demowebsite
+include:
+  - _pages
+logo: assets/images/logo.png
+mailchimp-list: https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b
+adsense:
+  status: disabled
+  adsense-data-ad-client: ca-pub-3412143450191416
+  adsense-data-ad-slot: "1363087678"
+permalink: /:title/
+email: wowthemesnet@gmail.com
+lazyimages: disabled
+paginate_path: /page:num/
+sass:
+  sass_dir: _sass
+  style: compressed
+markdown: kramdown
+title: Memoirs
+favicon: assets/images/logo.png
+collections:
+  authors:
+    output: true
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: /category/:name/
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+paginate: 6
+exclude:
+  - changelog.md
+  - LICENSE.txt
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+menu:
+  - title: Home
+    url: /
+    badge: ""
+  - title: Categories
+    url: /categories
+    badge: ""
+  - title: Tags
+    url: /tags
+    badge: New
+  - title: Contact
+    url: /contact
+    badge: ""
+  - title: About
+    url: /about
+    badge: Memoirs Jekyll Theme

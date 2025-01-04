@@ -1,0 +1,294 @@
+backend:
+  name: git-gateway
+  branch: master
+
+publish_mode: editorial_workflow
+
+media_folder: "assets/images"
+collections:
+  - label: "Site Settings"
+    name: "settings"
+    editor:
+      preview: false
+      delete: false
+    files:
+      - label: "Site Info"
+        name: "site_info"
+        file: "_config.yml"
+        fields:
+          - label: "Website Name"
+            name: "name"
+            widget: "string"
+            required: true
+          - label: "Title"
+            name: "title"
+            widget: "string"
+            required: true
+            hint: "Ex: Same as your site name."
+          - label: "Description"
+            name: "description"
+            widget: "string"
+            required: false
+            hint: "This will show in search."
+          - label: "Upload Logo"
+            name: "logo"
+            widget: "image"
+            required: false
+            hint: "36px*36px Recommended"
+          - label: "Baseurl"
+            name: "baseurl"
+            widget: "string"
+            required: false
+            hint: "Name of folder where files are stored."
+          - label: "Favicon"
+            name: "favicon"
+            widget: "image"
+            required: true
+          - label: "Google Analytic code"
+            name: "google_analytics"
+            widget: "string"
+            required: false
+            hint: "Ex: UA-xxxxxxxx-1"
+          - label: "Disqus Shortname"
+            name: "disqus"
+            widget: "string"
+            required: true
+            hint: "https://disqus_shortname.disqus.com"
+          - label: "Mailchimp List"
+            name: "mailchimp-list"
+            widget: "string"
+            required: false
+            hint: "https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b"
+          - label: "E-mail"
+            name: "email"
+            widget: "string"
+            hint: "example@domain.com"
+          - label: "Googe Adsense"
+            name: "adsense"
+            widget: "object"
+            fields:
+              - label: "Status"
+                name: "status"
+                widget: "select"
+                options:
+                  - { label: "Enable", value: "enabled" }
+                  - { label: "Disable", value: "disabled" }
+                default:
+                  - { label: "Disable", value: "disabled" }
+                required: true
+              - label: "Adsense Data Ad Client"
+                name: "adsense-data-ad-client"
+                widget: "string"
+                hint: "Ex: ca-pub-3412143450191416"
+                required: false
+              - label: "Adsense Data Ad Slot"
+                name: "adsense-data-ad-slot"
+                widget: "string"
+                hint: "Ex: 1363087678"
+                required: false
+          - label: "Lazy Images"
+            name: "lazyimages"
+            widget: "select"
+            required: true
+            options:
+              - { label: "Enable", value: "enabled" }
+              - { label: "Disable", value: "disabled" }
+            default:
+              - { label: "Disable", value: "disabled" }
+          - label: "Author Box"
+            name: "authorbox"
+            widget: "select"
+            required: true
+            options:
+              - { label: "Enable", value: "enabled" }
+              - { label: "Disable", value: "disabled" }
+            default:
+              - { label: "Disable", value: "disabled" }
+          - label: "Number of post in a page"
+            name: "paginate"
+            widget: "number"
+            default: 6
+            valueType: "float"
+            step: 1
+            hint: "Ex: 8"
+          - label: "Menu"
+            name: "menu"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+                hint: "Text that will show up in the menu."
+              - label: "URL"
+                name: "url"
+                widget: "string"
+                hint: "Ex: /contact"
+              - label: "Badge"
+                name: "badge"
+                widget: "string"
+                required: false
+                hint: "Ex: Add featured to your menu."
+  - label: "Authors"
+    name: "authors"
+    folder: "_authors"
+    create: true
+    identifier_field: "name"
+    slug: "{{slug}}"
+    editor:
+      preview: false
+      delete: false
+    fields:
+      - label: "Shortname"
+        name: "name"
+        widget: "string"
+        required: true
+        hint: "Ex: john (Use samll letters)"
+      - label: "Display Name"
+        name: "display_name"
+        widget: "string"
+        required: true
+        hint: "Ex: John Doe"
+      - label: "Avatar"
+        name: "avatar"
+        widget: "image"
+        required: false
+        hint: "Use optimised images"
+      - label: "Gravatar ID"
+        name: "gravatar"
+        widget: "string"
+        required: false
+        hint: "Ex: b1cc14991db7a456fcd761680bbc8f81"
+      - label: "E-mail"
+        name: "email"
+        widget: "string"
+        required: false
+        hint: "Ex: john@example.com"
+      - label: "Website"
+        name: "web"
+        widget: "string"
+        required: false
+        hint: "Ex: johdoe.me"
+      - label: "Twitter Link"
+        name: "twitter"
+        widget: "string"
+        required: false
+        hint: "Ex: https://twitter.com/johndoe"
+      - label: "About You"
+        name: "description"
+        widget: "text"
+        required: false
+  - label: "Posts"
+    name: "posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "{{title}}"
+    extension: "md"
+    fields:
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD HH:mm:ss"
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "post"
+      - label: "Post Title"
+        name: "title"
+        widget: "string"
+        required: true
+      - label: "Author"
+        name: "author"
+        widget: "relation"
+        collection: "authors"
+        searchFields: [display_name]
+        displayFields: [display_name]
+        valueField: "name"
+        required: true
+        hint: "Ex: John Doe"
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        hint: "Each category is separated with comma."
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        hint: "Each tag is separated with comma."
+      - label: "Post Image"
+        name: "image"
+        widget: "image"
+        hint: "Try to add optimised image below 1MB. Make site load faster."
+      - label: "Description"
+        name: "description"
+        widget: "string"
+        required: false
+        hint: "Small description about the post or review."
+      - label: "Content Rating"
+        name: "rating"
+        widget: "number"
+        min: 0
+        max: 5
+        step: 0.5
+        valueType: "float"
+        required: false
+      - label: "Image Shadow"
+        name: "imageshadow"
+        widget: "boolean"
+        required: false
+      - label: "TOC"
+        name: "toc"
+        widget: "boolean"
+        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+  - label: "Pages"
+    name: "pages"
+    folder: "_pages"
+    create: true
+    identifier_field: "title"
+    slug: "{{slug}}"
+    preview_path: "{{slug}}"
+    extension: "md"
+    fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "page"
+      - label: "Permalink"
+        name: "permalink"
+        widget: "string"
+        required: true
+        hint: "Ex: /your-page-name or /name/your-page-name"
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD HH:mm:ss"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "Enter your page title."
+      - label: "Page Image"
+        name: "image"
+        widget: "image"
+        required: false
+        hint: "Try to add optimised image below 1MB."
+      - label: "Image Shadow"
+        name: "imageshadow"
+        widget: "boolean"
+        default: "true"
+        required: false
+      - label: "Comments"
+        name: "comments"
+        widget: "hidden"
+        default: "false"
+      - label: "Comments"
+        name: "comments"
+        widget: "boolean"
+        default: "false"
+        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        required: false
