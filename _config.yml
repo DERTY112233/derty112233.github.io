@@ -8,9 +8,8 @@ plugins:
   - jekyll-archives
   - jekyll-figure
 highlighter: none
-name: Memoirs
-description: I will take you on the fabulous world of exploration. Travel,
-  culture, lifestyle. Eat, Pray, Love!
+name: Dertyblog
+description: I am just a techy boi trying to learn and educate other techy bois and gals
 baseurl: ""
 disqus: demowebsite
 include:
@@ -18,8 +17,8 @@ include:
 logo: assets/images/logo.png
 mailchimp-list: https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b
 adsense:
-  status: disabled
-  adsense-data-ad-client: ca-pub-3412143450191416
+  status: enabled
+  adsense-data-ad-client: ca-pub-5057761895144912
   adsense-data-ad-slot: "1363087678"
 permalink: /:title/
 email: wowthemesnet@gmail.com
@@ -29,7 +28,7 @@ sass:
   sass_dir: _sass
   style: compressed
 markdown: kramdown
-title: Memoirs
+title: Dertyblog
 favicon: assets/images/logo.png
 collections:
   authors:
